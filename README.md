@@ -1,4 +1,6 @@
 # Machine Vision Manufacturing Demo
+**Author:** Manisha Das Chaity  
+**Focus:** Machine Vision • Optical Metrology • Manufacturing Inspection
 
 This repository demonstrates a complete machine vision pipeline for
 manufacturing inspection and metrology, aligned with industrial use cases
