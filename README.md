@@ -18,6 +18,39 @@ measurement calibration, and machine learning-based classification.
 - CNN-based defect classification (proof-of-concept)
 - Statistical analysis for measurement repeatability
 
+## Project Structure
+
+```
+machine-vision-manufacturing-demo/
+│
+├── README.md                          # Project documentation
+├── requirements.txt                   # Python dependencies
+│
+├── data/
+│   ├── raw/
+│   │   └── glass_sample.png          # Sample image for testing
+│   └── processed/                     # Output directory for processed images
+│
+├── src/
+│   ├── acquisition.py                 # Image acquisition module
+│   ├── preprocessing.py               # Image preprocessing and filtering
+│   ├── segmentation.py                # Image segmentation logic
+│   ├── defect_detection.py            # Defect detection algorithms
+│   ├── metrology.py                   # Measurement and calibration
+│   ├── feature_extraction.py          # Feature engineering for ML
+│   ├── ml_classification.py           # ML-based classification
+│   └── utils.py                       # Utility functions
+│
+├── notebooks/
+│   └── exploratory_analysis.ipynb    # Jupyter notebook for exploration
+│
+├── models/
+│   └── cnn_defect_classifier.py      # CNN model implementation
+│
+└── docs/
+    └── system_overview.md             # System architecture and design
+```
+
 ## Technologies
 - Python
 - OpenCV
